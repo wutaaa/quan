@@ -1,17 +1,16 @@
 /***********************************
-
-> 應用名稱：圖圖記賬
-> 軟件版本：2.4.4
-
  
 [rewrite_local]
 
 # 图图记账@ddgksf2013
 ^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers\/(\$RCAnonymousID%3A)?\w{32})$ url script-echo-response https://raw.githubusercontent.com/wutaaa/quan/main/tutujizhang.js
 
+# Fileball 解锁高级版
+^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/Json echo-response https://raw.githubusercontent.com/chwuta/quan/main/fileballv.js
+
 [mitm] 
 
-hostname= api.revenuecat.com
+hostname= api.revenuecat.com, buy.itunes.apple.com,
 
 ***********************************/
 
