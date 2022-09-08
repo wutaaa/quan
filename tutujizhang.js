@@ -1,19 +1,12 @@
 /***********************************
 
 > 應用名稱：圖圖記賬
-> 軟件版本：2.3.2
-> 下載地址：https://apps.apple.com/cn/app/id1546356856
-> 腳本作者：Cuttlefish
-> 微信賬號：墨魚手記
-> 解鎖說明：解鎖高級會員權限
-> 更新時間：2022-03-03
-> 通知頻道：https://t.me/ddgksf2021
-> 問題反饋：https://t.me/ddgksf2013_bot
-> 特別說明：本腳本僅供學習交流使用，禁止轉載售賣
+> 軟件版本：2.4.4
+
  
 [rewrite_local]
 
-# ～ 圖圖記賬解鎖會員權限（2022-03-03）@ddgksf2013
+# 图图记账@ddgksf2013
 ^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers\/(\$RCAnonymousID%3A)?\w{32})$ url script-echo-response https://raw.githubusercontent.com/wutaaa/quan/main/tutujizhang.js
 
 [mitm] 
