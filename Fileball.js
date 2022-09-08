@@ -1,6 +1,6 @@
 [mitm]
 
-hostname= buy.itunes.apple.com api.revenuecat.com
+hostname= buy.itunes.apple.com, api.revenuecat.com
 
 
 [rewrite_local]
